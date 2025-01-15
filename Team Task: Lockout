@@ -1,0 +1,8 @@
+First we used IF config to help us find the netmask. 
+Then we used Sudo nmap -O 10.0.140.3/22 to see all the IP Addresses on the network. 
+Then we wrote down all the ips we found. We checked all the other computers on the network to narrow down ip addresses to 3.
+We shut down two of the three to determine each of the ip’s and found our ip address. 
+Next we asked Corey for a hint and used the hint to download hydraNext. 
+We asked Corey for another hint and found out about rockyou.txt. Using find -H, we found and unarchived the file and  we copied rockyou.txt from coreys computer to ours using scp.
+We used the command Hydra -l user -P rockyou.txt ftp://10.0.140.5 to see the passwords. 
+Finally Hydra told us the password was iloveyou.
