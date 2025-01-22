@@ -1,0 +1,13 @@
+Level 0: Use the given username, location, port, and password with the command ssh to log in to the game.
+Level 0-1: Once logged in, use ls to list all files and directories, then use cat to open "readme", the contents inside is the password for the next level.
+level 1-2: use ls to list everything, then use "cat ./-" to open the only file and use the contents as the next password.
+Level 2-3: use ls to list everything, then use cat "(file name)" to open the file and use it as the next password.
+Level 3-4: use ls to  list everything, then use cd to change directories to "inhere". Then use ls -a to list all things, then open "...Hiding-From-You" and use the contents as the next password.
+Level 4-5: Change directories to "inhere" then list everything. Next, open "-file07 " and use the contents as the next password. 
+Level 5-6: se ls to  list everything, then use cd to change directories to "inhere". then do  "find -size 1033c -readable". The results will show "./maybehere07/.file2". Next, do "cd maybehere07" which can be followed by "cat .file2" which will give you the password.
+level 6-7: The password for the next level is stored somewhere on the server and has all of the following properties:, owned by user bandit7, owned by group bandit6, 33 bytes in size. Use the command "find / -type f -user bandit7 -group bandit6 -size 33c 2> /dev/null" to specify what you're trying to find. Open the resulting file with cat and use the contents as the next password. 
+Level 7-8: open data.txt using cat after using ls, then use command f on the keyboard and type in millionth to see where it is in the file, finally, use the text following it as the password for the next level.
+Level 8-9: After using ls, use cat to open data.txt, use the command "sort data.txt | uniq -u" and use the response as the next password.
+Level 9-10: Use the command "strings “======” data.txt" and look for the set of characters following a few "=" and use it as the next password. 
+level 10-11: Once data.txt is opened with car, use the command "base64 -d data.txt" to decode it, and the contents give the password for the next level.
+Level 11-12: 
